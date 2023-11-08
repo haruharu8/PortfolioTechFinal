@@ -77,9 +77,9 @@ const introduction = {
 	text: [
 		"Hi! Welcome to my page! (:",
 
-		"My name is Kelly, and I am a front-end software developer. I have a strong passion for the tech revolving around responsiveness ,design, and UI/UX.",
+		"My name is Kelly, and I am a front-end software developer. I have a strong passion for the tech revolving around responsiveness, design, and UI/UX.",
 
-		"Outside of my software engineering I perform hip hop dance and go to anime conventions.",
+		"Outside of my software engineering, I perform hip hop dance and go to anime conventions.",
 
 		"I'm continuously looking out to partner up with teams who challenge my skills!",
 	],
