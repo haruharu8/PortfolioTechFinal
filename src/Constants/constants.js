@@ -34,15 +34,12 @@ import {
 	htmlIcon,
 	javaIcon,
 	jsIcon,
-	memoryGame,
-	neoIcon,
+	plants,
 	nodeIcon,
-	pawsitivePrototype,
-	psqlIcon,
 	pyIcon,
-	raspIcon,
 	reactIcon,
 	viteIcon,
+	animu,
 } from "../assets";
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -56,13 +53,10 @@ const media = {
 	javaIcon,
 	gitIcon,
 	githubIcon,
-	psqlIcon,
 	eslintIcon,
 	pyIcon,
 	viteIcon,
 	nodeIcon,
-	raspIcon,
-	neoIcon,
 	figmaIcon,
 	avatar,
 };
@@ -81,13 +75,13 @@ const icons = {
 
 const introduction = {
 	text: [
-		"Hello there, I'm so happy you are here! (:",
+		"Hi! Welcome to my page! (:",
 
-		"My name is Sara, I'm 20 and a third year computer science student based in Guatemala. I have a strong passion for the technologies related to the data base construction and UX.",
+		"My name is Kelly, and I am a front-end software developer. I have a strong passion for the tech revolving around responsiveness ,design, and UI/UX.",
 
-		"Outside of my regular activities, I'm into drawing whenever I have some free time. I'm also a huge dog lover and enjoy playing chess for fun.",
+		"Outside of my software engineering I perform hip hop dance and go to anime conventions.",
 
-		"I'm continuously thrilled to partner with individuals and teams who wholeheartedly embrace my fervor for crafting extraordinary experiences. Your visit to my portfolio is deeply appreciated !",
+		"I'm continuously looking out to partner up with teams who challenge my skills!",
 	],
 };
 
@@ -115,29 +109,29 @@ const projects = [
 
 
 	{
-		name: "Arasartara's Gallery",
+		name: "Plants v Zombies Clone",
 		description:
-			"A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.",
-		image: memoryGame,
-		source_code_link: "https://github.com/bl33h/artMemoryGame",
-		demo_link: "https://arasarmemory.netlify.app/",
+			"This is a plants vs zombies clone done when I just started out with basic HTML, CSS, and JavaScript",
+		image: plants,
+		source_code_link: "https://github.com/haruharu8/MOD1_Projecte",
+		demo_link: "https://haruharu8.github.io/MOD1_Project/",
 	},
 	{
-		name: "Pawsitive",
+		name: "Anime Recs!",
 		description:
-			"Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.",
-		image: pawsitivePrototype,
-		source_code_link: "https://github.com/bl33h/pawsitive",
+			"A self guided tour on discovering what to what next for the Anime lover in you. WIP",
+		image: animu,
+		source_code_link: "https://github.com/haruharu8/MOD2_AnimeRec",
 		demo_link:
-			"https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2",
+			"https://animerecs.onrender.com",
 	},
 	{
-		name: "Basic Calculator",
+		name: "Basic Budget App",
 		description:
-			"A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.",
+			"Dark mode budget calculator which you can edit and add expenses. WIP",
 		image: calculator,
-		source_code_link: "https://github.com/bl33h/calculator",
-		demo_link: "https://bl33hscalculator.netlify.app/",
+		source_code_link: "https://github.com/haruharu8/MOD3_final",
+		demo_link: "https://budgetapp-k9jp.onrender.com",
 	},
 ];
 
@@ -151,49 +145,49 @@ const skills = [
 		title: "HTML",
 		icon: htmlIcon,
 		description:
-			"I have a strong command of HTML for organizing web pages and generating meaningful content that can be accessed by all users.",
+			"I have a thorough understanding of HTML concepts which I can use to build static sites.",
 	},
 	{
 		id: "css",
 		title: "CSS",
 		icon: cssIcon,
 		description:
-			"I possess expertise in utilizing CSS to design web pages and craft visually captivating layouts that enhance the overall user experience.",
+			"I'll use my CSS to style your websites artistically",
 	},
 	{
 		id: "javascript",
 		title: "JavaScript",
 		icon: jsIcon,
 		description:
-			"I have substantial experience in employing JavaScript to introduce interactivity and functionality into web pages, resulting in dynamic user interfaces.",
+			"My bread and butter for making responsive websites pop for users.",
 	},
 	{
 		id: "react",
 		title: "React",
 		icon: reactIcon,
 		description:
-			"I am well-versed in React, proficient in creating reusable components and managing application state using hooks and context.",
+			"My best front-end framework to create dynamic sites that will impress people.",
 	},
 	{
 		id: "java",
 		title: "Java",
 		icon: javaIcon,
 		description:
-			"I have extensive experience utilizing Java for object-oriented programming (OOP) and implementing data structures.",
+			"Currently studying this in University. Learning Object Oriented Programming and Data Structures.",
 	},
 	{
 		id: "aws",
 		title: "Amazon Web Services",
 		icon: awsIcon,
 		description:
-			"I am certified in AWS and proficient in working with EC2 and RDS instances, leveraging the power of cloud computing for scalable and reliable infrastructure.",
+			"WIP to obtain my Associate badge",
 	},
 	{
 		id: "figma",
 		title: "Figma",
 		icon: figmaIcon,
 		description:
-			"In my Figma skills, I unleash creativity, designing captivating user interfaces and collaborating seamlessly with designers and developers.",
+			"WIP to obtain better UI/UX mockups",
 	},
 	{
 		id: "git",
@@ -210,46 +204,25 @@ const skills = [
 			"I am skilled in using GitHub for seamless project collaboration, code sharing, and issue tracking. Through GitHub, I efficiently create and manage repositories and effectively present my work to potential employers.",
 	},
 	{
-		id: "psql",
-		title: "Postgresql",
-		icon: psqlIcon,
-		description:
-			"I have a strong command of PostgreSQL, encompassing a wide range of skills such as database normalization, triggers, front-end connectivity, and data analysis using software like Power BI.",
-	},
-	{
 		id: "vite",
 		title: "Vite",
 		icon: viteIcon,
 		description:
-			"I have gained considerable experience working with Vite for approximately six months, leveraging its capabilities to build React websites and seamlessly deploy them on platforms like Netlify.",
+			"My choice when creating modern React apps.",
 	},
 	{
 		id: "py",
 		title: "Python",
 		icon: pyIcon,
 		description:
-			"With 3 years of Python experience, I am adept at coding functions and creating graphic interfaces using Tkinter.",
+			"WIP to learn backend",
 	},
 	{
 		id: "node",
 		title: "Node",
 		icon: nodeIcon,
 		description:
-			"When it comes to building web applications, I prefer using Node as my runtime environment over Yarn. I have expertise in leveraging Node.js to develop powerful and scalable web applications.",
-	},
-	{
-		id: "neo",
-		title: "Neo4j",
-		icon: neoIcon,
-		description:
-			"I am knowledgeable in Neo4j, the graph database management system. I have expertise in utilizing GraphOS to build robust recommendation systems, leveraging the strength of graph-based data modeling.",
-	},
-	{
-		id: "raspi",
-		title: "Raspberry Pi",
-		icon: raspIcon,
-		description:
-			"I have hands-on experience with Raspberry Pi, where I utilized a virtual Linux machine to execute programs written in assembly language. This allowed me to explore low-level computing and develop efficient code for the Raspberry Pi platform.",
+			"Runtime enviorment of choice when creating webapps.",
 	},
 	{
 		id: "eslint",

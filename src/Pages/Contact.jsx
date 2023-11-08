@@ -39,9 +39,12 @@ const Contact = () => {
 			</div>
 			<div className="w-full flex flex-col">
 				<SocialLinks />
-				<div className="bg-grayscale-950 flex justify-center pb-4 text-grayscale-50">
+				<div className="bg-grayscale-950 flex justify-center items-center flex-col mb-8 pb-4 text-grayscale-50">
 					<span>
-						Made by <em>Sara Echeverría (bl33h)</em>
+						Inspired by <em>Sara Echeverría (bl33h)</em>
+					</span>
+					<span>
+						Recreated by Kelly Siu
 					</span>
 				</div>
 			</div>

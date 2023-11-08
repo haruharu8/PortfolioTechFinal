@@ -8,7 +8,7 @@
 */
 
 // Logo
-import bl33hIcon from './logo/bl33hIcon.png';
+import klogo from './logo/logo.png';
 
 // Technologies
 import htmlIcon from './tech/html.png';
@@ -20,20 +20,17 @@ import javaIcon from './tech/java.png';
 import gitIcon from './tech/git.png';
 import githubIcon from './tech/github.png';
 import figmaIcon from './tech/figma.png';
-import psqlIcon from './tech/postgresql.png';
 import eslintIcon from './tech/eslint.png';
 import viteIcon from './tech/vite.svg';
 import pyIcon from './tech/py.png';
 import nodeIcon from './tech/node.webp';
-import neoIcon from './tech/neo.png';
-import raspIcon from './tech/raspi.png';
 import close from './close.svg';
 import menu from './menu.svg';
 
 // Projects
-import pawsitivePrototype from './projects/pawsitive.jpeg';
+import animu from './projects/animeref.jpeg';
 import calculator from './projects/calculator.jpg';
-import memoryGame from './projects/memory.jpg';
+import plants from './projects/plantsvzombies.jpeg';
 
 // Avatar
 import avatar from './avatar/avatar.png';
@@ -51,15 +48,12 @@ export {
   githubIcon,
   eslintIcon,
   figmaIcon,
-  psqlIcon,
   nodeIcon,
   pyIcon,
   viteIcon,
-  neoIcon,
-  raspIcon,
-  pawsitivePrototype,
+  animu,
   calculator,
-  memoryGame,
+  plants,
   avatar,
-  bl33hIcon,
+  klogo,
 };

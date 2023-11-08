@@ -10,7 +10,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { navLinks } from "../../Constants/constants";
-import { bl33hIcon, close, menu } from "../../assets";
+import { klogo, close, menu } from "../../assets";
 import { styles } from "../../styles.js";
 
 const Navbar = () => {
@@ -47,8 +47,8 @@ const Navbar = () => {
 					}}
 				>
 					<img
-						src={bl33hIcon}
-						alt={bl33hIcon}
+						src={klogo}
+						alt={klogo}
 						className="w-18 h-9 object-contain"
 					/>
 					<p className="text-white text-[18px] font-bold cursor-pointer flex"></p>
