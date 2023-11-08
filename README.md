@@ -7,7 +7,7 @@
   <a href="#packages">Packages</a>   
 </p>
 <p align="center" >
-<a href="https://madebykellysiu.onrender.com">Try it out here</a> 
+<a href="madebykelly.netlify.app">Try it out here</a> 
 </p>
 
 ## Features
